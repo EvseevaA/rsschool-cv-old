@@ -1,0 +1,17 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.head-paragraph { 
+    font: 16px Roboto, sans-setif;
+}
+.nav-button {
+    background-color: #0c2934;
+    border: 1px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+    
+}
