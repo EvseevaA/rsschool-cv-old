@@ -1,17 +1,105 @@
-
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.head-paragraph { 
-    font: 16px Roboto, sans-setif;
+
+* {
+  margin: 0;
+  padding: 0;
 }
-.nav-button {
-    background-color: #0c2934;
-    border: 1px;
-    padding: 10px;
-    text-align: center;
-    font-size: 16px;
-    color: white;
-    border-radius: 8px;
-    
+
+.head-h1 {
+  color: white;
+  margin: 0 0 10px 0;
+}
+
+.head-paragraph {
+  font: 16px;
+  color: white;
+  margin: 2px 0;
+}
+.nav {
+  margin: 0 150px 0 400px;
+  float: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav button {
+  background-color: white;
+  border: 1px;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #0c2934;
+  border-radius: 8px;
+  margin: 10px;
+  display: inline;
+  transition-duration: 0, 4s;
+  cursor: pointer;
+  border: 2px solid #0c2934;
+}
+
+.nav button:hover {
+  background-color: #0c2934;
+  border: 2px solid #0c2934;
+  color: white;
+}
+.nav a {
+  text-decoration: none;
+}
+.border-radius {
+  border-radius: 100px;
+  border: 0px solid #0c2934;
+}
+
+.head_div {
+  height: 260px;
+  background-color: #0c2934;
+  border-radius: 50px 130px 130px 50px;
+  padding: 0 50px;
+  margin: 20px 5px;
+}
+
+.header_div {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 30px 50px;
+  vertical-align: middle;
+}
+
+.sidebar {
+  display: inline-block;
+  width: 300px;
+  background-color: #ffd277;
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  z-index: -1;
+  left: 55px;
+}
+.content {
+  display: inline-block;
+  margin: 50px 150px 50px 400px;
+}
+.content div {
+  margin: 0 20px;
+}
+.content h2 {
+  color: rgb(73, 73, 73);
+  margin: 30px 0 10px 0;
+}
+
+.content p {
+  font: 16px;
+  color: rgb(73, 73, 73);
+  margin: 5px 0;
+}
+
+.indent {
+  font: 16px;
+  color: rgb(97, 97, 97);
+}
+
+.indent li {
+  margin: 5px 0 0 30px;
 }
