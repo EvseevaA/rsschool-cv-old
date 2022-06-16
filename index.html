@@ -21,7 +21,25 @@
   </head>
   <body>
     <header>
-      <div class="head_div">
+        <div class="menu">
+            <div>     <img
+                src="./assets/img/Evseeva1-09.png"
+                alt="logo.jpg"
+                height="80px"
+                style="margin: 0 0 0 110px"
+              />
+            </div>
+            <nav class="nav">
+           
+            <a href="#info"><button style="margin: 10px 10px 10px 0">INFO</button></a>
+            <a href="#me"><button>ABOUT ME</button></a>
+            <a href="#education"><button>EDUCATION</button></a>
+            <a href="#experience"><button>WORK EXPERIENCE</button></a>
+            <a href="#skill"><button>SKILLS AND KNOWLEDGE</button></a>
+            <a href="#code"><button>CODE</button></a>
+            <a href="#project"><button>PROJECTS</button></a>
+        </nav></div>
+      <div class="head_div" id="info">
         <div class="header_div">
           <img
             src="./assets/img/photo.jpg"
@@ -30,33 +48,39 @@
             height="200"
             class="border-radius"
             hspace="20"
+    
           />
         </div>
-        <div class="header_div">
+        <div class="header_div" style="margin: 5px 0 0 60px;">
           <h1 class="head-h1">ALESIA EVSEEVA</h1>
-          <p class="head-paragraph">Portugal, Lisboa, Oeiras</p>
-          <p class="head-paragraph">+351 910 192 504</p>
-          <p class="head-paragraph">evseevaalesia@gmail.com</p>
-          <p class="head-paragraph">Languages: Belorussian, Russian, English</p>
+          <table width="900px" ><tbody><tr><td>
+        
+          <p class="head-paragraph"><i class="fa-solid fa-location-dot"></i>Portugal, Lisboa, Oeiras</p>
+          <p class="head-paragraph"><i class="fa-solid fa-phone"></i>+351 910 192 504</p>
+          <p class="head-paragraph"><i class="fa-solid fa-envelope"></i>evseevaalesia@gmail.com</p>
+          </td>
+          <td>
+<a href="https://www.behance.net/evseevaalesia"><p class="head-paragraph"><i class="fa-brands fa-behance"></i>Behance</p></a>
+<a href="https://dribbble.com/mikky2207"><p class="head-paragraph"><i class="fa-brands fa-dribbble"></i>Dribble</p></a>
+<a href="https://instagram.com/designer.evseeva?igshid=YmMyMTA2M2Y="><p class="head-paragraph"><i class="fa-brands fa-instagram"></i>Instagram</p></a>
+          </td>
+          </tr>
+          </tbody>
+          </table>
         </div>
-        <div class="header_div" style="float: right; margin: 50px 0">
+        <!-- <div class="header_div" style="float: right; margin: 50px 0">
           <img
             src="./assets/img/Evseeva-09.png"
             alt="logo.jpg"
             height="140px"
-          />
+          /> -->
         </div>
       </div>
     </header>
     <aside class="sidebar">
       
     </aside>
-    <nav class="nav">
-        <a href="#me"><button style="margin: 10px 10px 10px 0">ABOUT ME</button></a>
-        <a href="#education"><button>EDUCATION</button></a>
-        <a href="#experience"><button>WORK EXPERIENCE</button></a>
-        <a href="#skill"><button>SKILLS AND KNOWLEDGE</button></a>
-    </nav>
+    
     <main class="content">
         <div>
             <h2 id="me">ABOUT ME</h2>
@@ -135,6 +159,54 @@
         </li>
     </ul>
         </div>
+        <div>
+            <h2 id="skill">SKILLS AND KNOWLEDGE</h2>
+<table cellpadding="10" width="100%"><tbody><tr><td>
+    <ul class="indent">
+        <li>Figma</li>
+            <li>Adobe XD</li>
+                <li>Adobe Illustrator</li>
+                    <li>Adobe Photoshop</li>
+                        <li>Basic principles of software development</li>
+                            <li>MySQL</li>
+                            <li>Git</li>
+                            <li>Jira, Confluence</li>
+                                <li>Basic knowledge of mobile app development </li>(Flutter, Android, iOS)
+    </li></ul></td>  <td> <ul class="indent">
+        <li>UX/UI design</li>
+        <li>Typography</li>
+        <li>Composition</li>
+        <li>Prototyping</li>
+        <li>Wireframing</li>
+        <li>Responsive design</li>
+        <li>Identity and branding</li>
+        <li>HTML, CSS, JavaScript</li>
+      
+        <li>Writing test documentation</li></ul>
+    </td>
+    </tr>
+    </tbody>
+    </table></div>
+    <div>
+        <h2 id="code">CODE EXAMPLE</h2>
+       <div class="footer_div" style="height: 40px;"> <pre>function multiply(a, b){ return a * b; }</pre></div>
+    </div>
+    <div>
+        <h2 id="project">MY PROJECTS</h2>
+       <a href="https://github.com/EvseevaA/rsschool-cv">RS School Project
+
+       </a>
+    </div>
     </main>
+    <footer>
+        <div class="footer_div">
+<a href="https://rs.school"><img src="./assets/img/rs_school_js.svg" height="40"></a>
+<p style="font-size: 32px;">2022</p>
+       
+        
+            <a href="https://github.com/EvseevaA"><img src="./assets/img/git.svg" height="40"></a>
+        </div>      
+    </footer>
+    <script src="https://kit.fontawesome.com/dfde1f0384.js" crossorigin="anonymous"></script>
   </body>
 </html>
