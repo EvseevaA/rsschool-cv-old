@@ -29,33 +29,30 @@ body {
 }
 .nav {
   float: center;
-  margin: 0 50px 0 80px;
+  margin: 0 30px 0 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.nav button {
+.nav a {
   background-color: #ffd277;
   border: 1px;
-  padding: 20px;
+  padding: 30px 15px;
   text-align: center;
   font-size: 16px;
   color: #0c2934;
-
   display: inline;
   transition-duration: 0, 4s;
   cursor: pointer;
   border: 2px solid #ffd277;
-  height: 80px;
+  height: 80;
+  text-decoration: none;
 }
 
-.nav button:hover {
+.nav a:hover {
   background-color: #0c2934;
   border: 2px solid #0c2934;
   color: white;
-}
-.nav a {
-  text-decoration: none;
 }
 
 .header_div a {
@@ -79,6 +76,10 @@ body {
   padding: 0 50px;
   display: block;
 }
+.head_table {
+  width: 700px;
+  text-align: left;
+}
 
 #info,
 #me,
@@ -90,7 +91,7 @@ body {
 
 .header_div {
   vertical-align: middle;
-  margin: 30px 50px;
+  margin: 30px 55px;
   display: inline-block;
 }
 
@@ -110,6 +111,11 @@ body {
   font: 16px;
   color: rgb(73, 73, 73);
   margin: 5px 0;
+}
+
+.content table {
+  width: 100%;
+  text-align: left;
 }
 
 .indent {
@@ -171,6 +177,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .i_small {
   font-size: 20px;
