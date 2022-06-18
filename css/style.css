@@ -28,8 +28,7 @@ body {
   margin: 2px 0;
 }
 .nav {
-  float: center;
-  margin: 0 30px 0 80px;
+  margin: 0 0 0 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,15 +36,15 @@ body {
 .nav a {
   background-color: #ffd277;
   border: 1px;
-  padding: 30px 15px;
+  padding: 30px 20px;
   text-align: center;
   font-size: 16px;
   color: #0c2934;
   display: inline;
-  transition-duration: 0, 4s;
+
   cursor: pointer;
   border: 2px solid #ffd277;
-  height: 80;
+
   text-decoration: none;
 }
 
@@ -156,15 +155,15 @@ body {
   margin: 20px 0 0 40px;
   color: #0c2934;
 }
-.sidebar i {
+.sidebar a {
   font-size: 80px;
   margin: 25px;
-  color: white;
-  transition-duration: 0, 4s;
+  color: #0c2934;
+
   cursor: pointer;
 }
 
-.sidebar i:hover {
+.sidebar a:hover {
   color: rgb(152, 152, 152);
 }
 
@@ -177,8 +176,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
-.i_small {
+
+.softskill {
+  font-size: 16px;
+  margin: 15px;
+  color: #0c2934;
+}
+
+.sidebar table p {
   font-size: 20px;
+  margin: 15px;
+  color: #0c2934;
 }
